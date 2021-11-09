@@ -13989,34 +13989,33 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Quality-issues">Quality issues<a class="anchor-link" href="#Quality-issues">&#182;</a></h3><p><strong>twitter_enhanced_table</strong></p>
+<p>1.Missing data 'retweeted_status_id','retweeted_status_user_id','retweeted_status_timestamp','in_reply_to_status_id','in_reply_to_user_id'</p>
+<p>2.'doggo','floofer','pupper','puppo' columns have 'None' values as string</p>
+<p>3.some 'rating_denominator' values differ from 10</p>
+<p>4.some 'rating_numinator' are less than 10</p>
+<p>5.some tweets 'retweeted_status_id' or 'retweeted_status_user_id' have values which would indicate some tweets are replies.</p>
+<p>6.some values in 'name' column do not have valid names.</p>
+<p>7.tweet_id should not be integer</p>
+<p>8.timestamp should be in date type</p>
+<p><strong>image_prediction_df</strong></p>
+<p>1.Some images are not dogs</p>
+<p>2.tweet_id is integer</p>
+<p><strong>tweet_json_df</strong></p>
+<p>1.tweet_id is integer</p>
 
-     </div>
 </div>
 </div>
-</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Tidiness-issues">Tidiness issues<a class="anchor-link" href="#Tidiness-issues">&#182;</a></h3><p><strong>twitter_enhanced_table</strong></p>
+<p>1.'doggo','flopper','pupper', 'pupper' can form a column</p>
+<p>2.ratings can form a column</p>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
 </div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
